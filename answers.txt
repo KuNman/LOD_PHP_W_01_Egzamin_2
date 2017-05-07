@@ -1,0 +1,10 @@
+1. W MySQL istnieją trzy relacje, które łączymy za pomocą FOREIGN KEY : 
+- jeden do jednego (element tablicy 1 może być połączony z jednym elementem tablicy 2)(user - password)
+- jeden do wielu (element tablicy 1 może być połączony z wieloma elementami tablicy 2)(user - orderID)
+- wiele do wielu (tworząc dodatkową tabelę łączymy wiele elementów z tablicy 1 do wielu elementów tablicy 2)(orderID - itemID)
+
+2. OOP posiada 4 główne zasady : 
+- abstrakcja (ogólnienie pewnych działań, aby umożliwić lepszą implementację zbliżonych założeń)
+- dziedziczenie (pozwala na relacje między kilkoma klasami)
+- hermetyzacja (pozwala na ukrycie kodu i danych przed zewnętrznym kodem PHP)
+- polimorfizm (możliwość podszywania się pod inne klasy)
